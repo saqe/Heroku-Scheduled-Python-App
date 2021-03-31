@@ -2,7 +2,7 @@
   "name": "Heroku Scheduled Python App",
   "description": "A sample app to explain the concept of how can deploy a schduled python app on Heroku",
   "repository": "https://github.com/saqe/Heroku-Scheduled-Python-App",
-  "logo": "https://www.python.org/static/community_logos/python-logo-generic.svg",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   "keywords": [
     "python3",
     "heroku-scheduler",
