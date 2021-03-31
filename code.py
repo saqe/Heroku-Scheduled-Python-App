@@ -1,2 +1,8 @@
 import requests
-requests.get("https://c17b95862ab5d6a58dfe9509e6b49578.m.pipedream.net/")
+from os import getenv
+
+page = requests.get(
+    getenv('TEST_WEBHOOK_LINK')
+)
+
+print( page.status_code)
