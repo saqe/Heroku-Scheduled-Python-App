@@ -1,0 +1,15 @@
+{
+  "name": "Heroku Scheduled Python App",
+  "description": "A sample app to explain the concept of how can deploy a schduled python app on Heroku",
+  "repository": "https://github.com/saqe/Heroku-Scheduled-Python-App",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "keywords": [
+    "python3",
+    "heroku-scheduler",
+    "scheduler",
+    "cronjob",
+    "python",
+    "heroku"
+  ],
+  "image": "heroku/python"
+}
