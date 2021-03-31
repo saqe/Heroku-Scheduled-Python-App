@@ -11,5 +11,21 @@
     "python",
     "heroku"
   ],
-  "image": "heroku/python"
+  "env": {
+    "WEBHOOK_LINK": {
+      "description": "A Webhook link to test the api.",
+      "generator": "secret"
+    }
+  },
+  "image": "heroku/python",
+  "addons": [
+    {
+      "plan": "scheduler"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
