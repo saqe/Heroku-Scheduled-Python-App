@@ -14,7 +14,7 @@
   "env": {
     "WEBHOOK_LINK": {
       "description": "A Webhook link to test the api.",
-      "generator": "secret"
+      "required": true
     }
   },
   "image": "heroku/python",
