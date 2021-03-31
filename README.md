@@ -31,8 +31,6 @@ or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-- Intall the addon that I mentioned above [Heroku Scheduler](https://elements.heroku.com/addons/scheduler).
-
 ## Documentation
 
 For more information about using Python on Heroku, see these Dev Center articles:
